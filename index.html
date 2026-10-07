@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário de cadastro</title>
+		<link rel="stylesheet" href="CSS/style.css">				
+	</head>
+	<body>
+		<header class="cabecalho">
+			<h1>Crie e compartilhe seu evento.</h1>
+			<p>O primeiro passo, é preencher esse formulário de inscrição.<p>
+		</header>
+		<form class="formulario">
+			<div class="informacoes">
+				<h1>Informações do Evento</h1>
+				<hr>
+				<div class="seccao">
+					<label>Título do evento <span>(mínimo 8 caracteres)</span></label>
+					<input class="input" type="" name="">
+				</div>
+				<div class="seccao">
+					<label>Link do evento <span>(comece com https://)</span></label>
+					<input class="input" type="url">
+				</div>
+				<div class="seccao">
+					<label>Whatsapp para contato <span>(somente números)</span></label>
+					<input class="input" type="number">
+				</div>
+				<div class="seccao">
+					<label>Informações  extras</label>
+						<input class="inputdif" type="">
+				</div>
+				<div class="seccao">
+					<label>Categoria</label>
+					<select name="Tipo de evento" class=input>
+						<option value="" disabled selected hidden>Tipo do evento</option>
+						<option value="presencial">Presencial</option>
+    					<option value="online">Online</option>
+    					<option value="hibrido">Híbrido</option>
+					</select>
+				</div>
+			</div>
+			<div class="privacidade">
+				<h1>Privacidade</h1>
+				<hr>
+				<div class="seccao">
+					<label>E-mail do administrador <span>(digite um email válido)</span></label>
+					<input class="input" type="email" name="">
+				</div>
+				<div class="seccao">
+					<label>Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+					<input class="input" type="password" name="">
+				</div>
+				<div class="seccao">
+  					<input type="checkbox" class= "checkbox">
+  					<span class="visto">Evento privado</span>
+					</label>
+				</div>
+			</div>
+			<div class="data">
+  				<h1>Dia e Hora</h1>
+  				<hr>
+  				<div class="campos">
+    				<div class="grupo date">
+      				<label for="data">Data</label>
+      				<input type="text" id="data" placeholder="">
+    			</div>
+    			<div class="grupo tempo">
+      				<label>Das</label>
+      				<input type="text" placeholder="19:00">
+    			</div>
+    			<div class="grupo tempo">
+      				<label>Até</label>
+      				<input type="text" placeholder="20:00">
+    			</div>
+  			</div>
+  			</div>	
+		</form>
+		<center>
+		<div class="rodape">
+			<button class="botao" type="button">Salvar evento</button>				
+		</div>
+		</center>
+		</form>
+	</body>
+</html>
